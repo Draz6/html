@@ -1,0 +1,25 @@
+nav {
+    background-color: rgb(17, 31, 39);
+    height: 70px;
+}
+ul{
+       display: flex;
+    flex-direction: row;
+    list-style:none;  
+}
+ a{
+    padding: 20px;
+    color: azure;
+    text-decoration: none;
+    margin-top: 20px;
+    display: block;
+}
+a:hover{
+    background-color: azure;
+    color: rgb(17, 31, 39);
+}
+blockquote{
+    padding: 10px; 
+    background: #f6f8ff; 
+    border-left: 2px solid steelblue;
+}
