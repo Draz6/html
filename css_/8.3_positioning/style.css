@@ -1,0 +1,53 @@
+.container {
+    position: relative;
+    width: 700px;
+    height: 500px;
+    border: 2px solid rgb(97, 97, 97);
+    padding: 10px;
+    margin: 10px auto;
+    font-family: cursive;
+  }
+
+.one {
+    position: absolute;
+    z-index: 1;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    background-color: rgb(242, 255, 144);
+}
+
+.two {
+    position: absolute;
+    z-index: 2;
+    border: 2px solid black;
+    width: 150px;
+    height: 350px;
+    left: 20%;
+    top: 100px;
+    background-color: white;
+    background-color: rgb(242, 128, 215);
+}
+
+.three {
+    position: absolute;
+    z-index: 3;
+    border: 2px solid black;
+    width: 500px;
+    height: 150px;
+    top: 250px;
+    background-color: white;
+    background-color: rgb(104, 229, 169);
+}
+
+.four {
+    position: absolute;
+    z-index: 4;
+    border: 2px solid black;
+    width: 120px;
+    height: 450px;
+    left: 47%;
+    background-color: white;
+    background-color: rgb(89, 162, 230);
+}
