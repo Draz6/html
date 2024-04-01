@@ -1,0 +1,71 @@
+/* 12.1  */
+a::before{
+    content: "please visit my website";
+    color: black;
+}
+
+a::after{
+    content: "for more information";
+    color: black;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* 12.2 */
+.psseudo_box{
+position: relative;
+width: 300px;
+height: 250px;
+background-color: blueviolet;
+}
+
+.psseudo_box::after{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    background-color: crimson;
+    right: 0;
+}
+
+/* 12.3 */
+.psseudo_box:hover{
+    background-color: rgb(255, 101, 222);
+}
+
+/* 12.4 */ 
+.box{
+    position: relative;
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 300px;
+    z-index: -1;
+}
+.box h1{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+h1::after{
+    content: "";
+    border: 1px dashed red;  
+}
+
+.tooltip{
+    color:crimson;
+    font-weight: bold;
+    position: relative;
+}
+
+.tooltip:hover::after{
+    content: "translate this text";
+    background-color: yellow;
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 10px;
+    width: 200px;
+}

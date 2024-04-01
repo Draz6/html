@@ -1,0 +1,54 @@
+:root {
+    --primary-color: rgb(74, 88, 108);
+    --font: sans-serif;
+}
+
+.profile {
+    width: 280px;
+    height: 470px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    box-shadow: 5px 7px 14px rgb(99, 130, 138);
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: cursive;
+    margin: 10px auto;
+    background-color: white;
+}
+
+.profile:hover {
+    box-shadow: 5px 7px 14px rgb(98, 208, 236);
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+img {
+    width: 280px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+p {
+    font-family: var(--font);
+    text-align: center;
+}
+
+.dark-theme {
+    background-color: rgb(38, 38, 47);
+    width: 1px;
+
+    button {
+        background-color: rgba(38, 38, 47, 0.775);
+        color: white;
+        border-radius: 10px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+
+    button:hover {
+        text-shadow: 1px 1px 2px rgb(255, 0, 132), 0 0 1em rgb(128, 0, 255), 0 0 0.2em blue;
+    }
+}
