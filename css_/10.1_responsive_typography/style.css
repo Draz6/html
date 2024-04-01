@@ -1,0 +1,43 @@
+header {
+    background-color: rgb(26, 29, 53);
+    color: white;
+    font-size: 20px;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 10vh;
+}
+
+h3 {
+    font-size: 10vw;
+}
+
+@media screen and (max-width:700px) {
+    header {
+        text-align: center;
+    }
+
+    nav {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    li {
+        display: block;
+        font-size: 1.5rem;
+    }
+
+}
