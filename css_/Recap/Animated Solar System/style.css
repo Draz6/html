@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(32, 29, 40);
+
+}
+
+.solar-system {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 300px;
+}
+
+.sun {
+    position: absolute;
+    background-color: rgb(255, 255, 213);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 7px rgb(245, 165, 252);
+    opacity: 0.8;
+
+}
+
+#mercury-orbit {
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    border: 1px dotted rgb(249, 249, 243);
+    border-radius: 50%;
+    animation: orbitMercury 5s infinite;
+    transition: all;
+    animation-duration: 100s;
+    animation-delay: 2s;
+
+
+    .orange {
+        background-color: rgba(255, 166, 0, 0.746);
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+
+}
+
+#venus-orbit {
+    width: 170px;
+    height: 78px;
+    border: 1px dotted rgb(255, 255, 255);
+    border-radius: 50%;
+    animation: orbitMercury infinite;
+    transition: all ease;
+    animation-duration: 50s;
+
+
+    .gray {
+        background-color: rgb(52, 163, 136);
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        position: absolute;
+        left: 70px;
+    }
+
+
+}
+
+@keyframes orbitMercury {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
