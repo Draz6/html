@@ -50,7 +50,7 @@ console.log(newMovieDetails);
 
 // 7. Movie Slug
 let titleForSlug = 'The Dark Knight';
-titleForSlug = titleForSlug.replace(/ /g, "-")
+titleForSlug = titleForSlug.replace(/ /g, "-").toLowerCase();
 console.log(titleForSlug);
 
 // 8. Synopsis Trimming
